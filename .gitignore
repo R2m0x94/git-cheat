@@ -1,2 +1,15 @@
 
+assets/images/*
+core/cache/
 git-cheat/
+images/*
+tpl/img/
+
+
+
+.DS_Store
+.project
+*.pyc
+*.png
+
+
