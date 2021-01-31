@@ -1,5 +1,5 @@
 # Markdown Mastering
-[GitHub](https://guides.github.com/features/mastering-markdown/)
+[GitHub Markdown](https://guides.github.com/features/mastering-markdown/)
 
 ## Вспомогательные команды новичка (git-cheat)
 [GitHub Syntax]
