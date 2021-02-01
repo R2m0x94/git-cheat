@@ -5,10 +5,10 @@ git-cheat/
 images/*
 tpl/img/
 
-
 # Hidden files on base line
 .DS_Store
 .project
 *.pyc
 *.png
+
 
