@@ -1,3 +1,6 @@
+<?php
+include __DIR__ . '/mabyday.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,20 +13,7 @@
 	<div class="headering"></div>
 	<div class="imagenation">
 		<div class="foor--fool"></div>
-		<p><?php
-			function zet() {
-			    $a = [1500,2000];
-			    $b = rand(2, 804);
-			    $a = array_sum($a);
-			    
-			    return $a * rand(1, 6) + round($b / $a) * $b;
-			}
-			$price = zet();
-			$price = number_format($price, 2, ',', ' ');
-			$price = str_replace(',00', '', $price);
-
-			print 'Сегодня Вы могли бы заработать '. $price .' руб.';
-			?></p>
+		<p><?=$output?></p>
 		<input type="hidden" name="random">
 		<input type="submit" name="but_btn">
 	</div>
