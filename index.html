@@ -2,10 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=960px, initial-scale=1.0">
-	<title>Document</title>
+	<meta name="viewport" content="width=1920px, initial-scale=1.0">
+	<title>Today you can give the money</title>
 </head>
 <body>
-	.headering+.imagenation>.foor--fool(p>{<?php function zet {var a = [1,2]; r = rand(2, 4);}?>})>input[type=hidden name=random]+input[type=submit]
+	<!-- So TAB here -->
+	<div class="headering"></div>
+	<div class="imagenation">
+		<div class="foor--fool"></div>
+		<p><?php
+			function zet() {
+			    $a = [1500,2000];
+			    $b = rand(2, 804);
+			    $a = array_sum($a);
+			    
+			    return $a * rand(1, 6) + round($b / $a) * $b;
+			}
+			$price = zet();
+			$price = number_format($price, 2, ',', ' ');
+			$price = str_replace(',00', '', $price);
+
+			print 'Сегодня Вы могли бы заработать '. $price .' руб.';
+			?></p>
+		<input type="hidden" name="random">
+		<input type="submit" name="but_btn">
+	</div>
 </body>
 </html>
